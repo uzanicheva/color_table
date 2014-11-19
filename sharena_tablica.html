@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>colored-table-task</title>
+		<style>	
+			table {
+				border-spacing: 0px;
+				}
+				
+				td {
+				padding: 0px;
+				}
+				
+			.zeleno{
+				background-color: #73DC14;
+				width: 80px;
+				height: 80px;
+				}
+		
+			.cherveno{
+				background-color: #CF1217;
+				height: 160px;
+				width: 160px
+				}
+			
+			.very_small{
+				
+				height: 40px;
+				width:40px
+				}
+				
+			.blue
+				{
+				background-color: #126BCF;
+				}
+			
+			.cell_small{
+				width: 80px;
+				}
+		</style>
+	</head>
+	
+		<body>
+			<table style="border: solid 2px white;">
+				<tr>
+					<td class="cell_small" style="border-right: solid 2px white;">
+					<table>
+						<tr><td class="zeleno" style="border-bottom: solid 2px white;"></td></tr>
+						<tr><td class="zeleno"></td></tr>
+					</table>
+					</td>
+				
+					<td class="cherveno"></td>
+					
+					<td class="cell_small" style="border-left: solid 2px white;">
+					<table>
+						<tr class="zeleno"><td class="zeleno" style="border-bottom: solid 2px white;"></td></tr>
+						<tr class="zeleno"><td class="zeleno"></td></tr>
+					</table>
+					</td>
+				</tr>
+			</table>
+			<table style="border: solid 2px white; border-top: 0px;">
+				<tr>
+					<td class="cherveno"  style="border-right: solid 2px white; border-top: 0px;"></td>
+					
+					<td class="cell_small">
+					<table>
+						<tr><td class="zeleno" style="border-right: solid 2px white; border-bottom: solid 2px white;"></td></tr>
+						<tr><td class="zeleno" style="border-right: solid 2px white;"></td></tr>
+					</table>
+					</td>
+					
+					<td class="cell_small">
+					<table class="blue">
+						<tr>
+							<td class="very_small" style="border-right: solid 2px white; border-bottom: solid 2px white"></td>
+							<td class="very_small" style="border-bottom: solid 2px white;"></td>
+						</tr>
+								
+						<tr>
+							<td class="very_small" style="border-right: solid 2px white; "></td>
+							<td class="very_small"></td>
+						</tr>
+							
+						<tr><td colspan="2" class="cell_small zeleno" style="border-top: solid 2px white;"></td></tr>
+						</table>
+					</td>
+				</tr>	
+			</table>
+		</body>
+</html>
